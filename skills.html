@@ -1,60 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-CZ9JPEQ2FC');
-</script>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical skills of Bibhu Aryal — .NET, Azure, AWS, Angular, SQL, AI/ML, DevOps, and more.">
     <title>Skills | Bibhu Aryal</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ9JPEQ2FC"></script>
     <script src="js/analytics.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
-    <header class="header small-header">
-        <h1>Technical Skills</h1>
-    </header>
-
-    <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="skills.html" class="active">Skills</a>
+    <nav class="nav" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-name">Bibhu</span>
+                <span class="nav-logo-sep">·</span>
+                <span class="nav-logo-role">Architect</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html" class="active">Skills</a>
+                <a href="mailto:reachme@SendingU.com" class="nav-cta">Contact</a>
+            </div>
+        </div>
     </nav>
 
-    <section class="content">
-        <h2>Backend & Cloud</h2>
-        <p>.NET Core, C#, ASP.NET, MVC, WCF, WPF, REST APIs, Microservices, Java/ColdFusion, EF Core, Docker,
-            Kubernetes, Azure Functions, Azure API Management, Azure App Services, Azure OpenAI, Azure Cognitive
-            Services, Azure ML, RAG architectures, Vector Search (Azure AI Search), Databricks, Kafka driven AI
-            pipelines, AWS (Lambda, API Gateway, S3, RDS, DynamoDB, CloudFront, SQS, SNS)</p>
+    <main>
+        <section class="page-hero">
+            <div class="page-hero-bg"></div>
+            <h1 class="page-title">Technical Skills</h1>
+        </section>
 
-        <h2>Frontend</h2>
-        <p>Angular, JavaScript, HTML5, CSS3, Bootstrap/Material, jQuery, SPA development</p>
+        <section class="skills-section">
+            <div class="container">
+                <div class="skills-grid">
 
-        <h2>Databases</h2>
-        <p>SQL Server, Oracle, MySQL, DynamoDB, NoSQL, T SQL, stored procedures, indexing, performance tuning</p>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">⚙️</span>
+                            <span class="skill-category-title">Backend &amp; Frameworks</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">.NET Core</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">ASP.NET</span>
+                            <span class="skill-tag">MVC</span>
+                            <span class="skill-tag">WCF</span>
+                            <span class="skill-tag">WPF</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">EF Core</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">ColdFusion</span>
+                        </div>
+                    </div>
 
-        <h2>Tools & Platforms</h2>
-        <p>Git, GitHub, Azure DevOps, CI/CD pipelines, Jira, Jenkins, Postman, SoapUI, Fiddler, Wireshark, Sumo Logic,
-            CloudWatch, New Relic, Application Insights</p>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">💜</span>
+                            <span class="skill-category-title">Azure Cloud</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag purple">Azure Functions</span>
+                            <span class="skill-tag purple">Azure API Management</span>
+                            <span class="skill-tag purple">Azure App Services</span>
+                            <span class="skill-tag purple">Azure OpenAI</span>
+                            <span class="skill-tag purple">Cognitive Services</span>
+                            <span class="skill-tag purple">Azure ML</span>
+                            <span class="skill-tag purple">Azure AI Search</span>
+                            <span class="skill-tag purple">Databricks</span>
+                            <span class="skill-tag purple">RAG Architectures</span>
+                            <span class="skill-tag purple">Vector Search</span>
+                        </div>
+                    </div>
 
-        <h2>Security & Compliance</h2>
-        <p>PCI DSS, MFA, SSL/TLS, secure coding, audit support, data protection</p>
-    </section>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">🟠</span>
+                            <span class="skill-category-title">AWS Services</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag orange">Lambda</span>
+                            <span class="skill-tag orange">API Gateway</span>
+                            <span class="skill-tag orange">S3</span>
+                            <span class="skill-tag orange">RDS</span>
+                            <span class="skill-tag orange">DynamoDB</span>
+                            <span class="skill-tag orange">CloudFront</span>
+                            <span class="skill-tag orange">SQS</span>
+                            <span class="skill-tag orange">SNS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">🌐</span>
+                            <span class="skill-category-title">Frontend</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag cyan">Angular</span>
+                            <span class="skill-tag cyan">JavaScript</span>
+                            <span class="skill-tag cyan">TypeScript</span>
+                            <span class="skill-tag cyan">HTML5</span>
+                            <span class="skill-tag cyan">CSS3</span>
+                            <span class="skill-tag cyan">Bootstrap</span>
+                            <span class="skill-tag cyan">Material UI</span>
+                            <span class="skill-tag cyan">jQuery</span>
+                            <span class="skill-tag cyan">SPA Development</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">🗄️</span>
+                            <span class="skill-category-title">Databases</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag emerald">SQL Server</span>
+                            <span class="skill-tag emerald">Oracle</span>
+                            <span class="skill-tag emerald">MySQL</span>
+                            <span class="skill-tag emerald">DynamoDB</span>
+                            <span class="skill-tag emerald">NoSQL</span>
+                            <span class="skill-tag emerald">T-SQL</span>
+                            <span class="skill-tag emerald">Stored Procedures</span>
+                            <span class="skill-tag emerald">Indexing</span>
+                            <span class="skill-tag emerald">Performance Tuning</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">🔧</span>
+                            <span class="skill-category-title">DevOps &amp; Infrastructure</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag purple">Git / GitHub</span>
+                            <span class="skill-tag purple">Azure DevOps</span>
+                            <span class="skill-tag purple">CI/CD Pipelines</span>
+                            <span class="skill-tag purple">Docker</span>
+                            <span class="skill-tag purple">Kubernetes</span>
+                            <span class="skill-tag purple">Jenkins</span>
+                            <span class="skill-tag purple">Kafka</span>
+                            <span class="skill-tag purple">Jira</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">🛡️</span>
+                            <span class="skill-category-title">Security &amp; Compliance</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PCI DSS</span>
+                            <span class="skill-tag">MFA</span>
+                            <span class="skill-tag">SSL / TLS</span>
+                            <span class="skill-tag">Secure Coding</span>
+                            <span class="skill-tag">Identity &amp; Access</span>
+                            <span class="skill-tag">Audit Support</span>
+                            <span class="skill-tag">Data Protection</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <span class="skill-icon">📊</span>
+                            <span class="skill-category-title">Monitoring &amp; Observability</span>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag cyan">Sumo Logic</span>
+                            <span class="skill-tag cyan">CloudWatch</span>
+                            <span class="skill-tag cyan">New Relic</span>
+                            <span class="skill-tag cyan">Application Insights</span>
+                            <span class="skill-tag cyan">Postman</span>
+                            <span class="skill-tag cyan">SoapUI</span>
+                            <span class="skill-tag cyan">Fiddler</span>
+                            <span class="skill-tag cyan">Wireshark</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <p>Los Angeles, CA | reachme@SendingU.com </p>
+        <div class="container">
+            <p>Los Angeles, CA &nbsp;&middot;&nbsp; <a href="mailto:reachme@SendingU.com">reachme@SendingU.com</a></p>
+            <p class="footer-copy">&copy; 2025 Bibhu Aryal. All rights reserved.</p>
+        </div>
     </footer>
 
+    <script src="js/nav.js"></script>
 </body>
-
 </html>
